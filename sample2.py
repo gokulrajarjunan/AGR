@@ -1,7 +1,7 @@
-a=input()
-b=['a','e','i','o','u','A','E','I','O','U']
+a=str(input())
+b='aeiouAEIOU'
 if a.isalpha():
-  if a in b:
+  if b.find(a):
     print "Vowels"
   else:
     print"Consonant"
